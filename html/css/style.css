@@ -2078,18 +2078,27 @@ h6 { font-size: 16px; }
 .project-one, .project-two{
 	display: flex;
 	flex-direction: column;
-	padding: 10px;
+	margin-top:20px;
+	margin-bottom: 20px;
 }
 
-.project div{
-	margin: 5px;
-}
+
 .project-header h2{
 	font-size: 20px;
+	margin-bottom: 10px;
+
+}
+
+.project-header span, .project-header .tags{
+	font-size: 15px;
+	margin-bottom: 10px;
+
 }
 
 .project-buttons button {
-	margin:5px;
+	margin-right:5px;
+	margin-bottom: 10px;
+
 }
 .project-buttons button a{
 	text-decoration: none;
@@ -2097,14 +2106,15 @@ h6 { font-size: 16px; }
 	font-size: 15px;
 }
 
-.carousel-item{
-	width:600px;
-	height: 400px;
-}
 
 
 .tags span{
 	margin-right: 10px;
+}
+
+.slider{
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
 /*---------------------------------------------------*/
 /*	15) CAVANI MEDIA QUERIES (FOR SMALL DEVICES)
