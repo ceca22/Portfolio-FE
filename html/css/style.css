@@ -2058,6 +2058,55 @@ h6 { font-size: 16px; }
 }
 
 /*---------------------------------------------------*/
+/*	PORTFOLIO
+/*---------------------------------------------------*/
+
+.portfolio-list{
+	width: 100%;
+	height: auto;
+}
+
+.projects{
+	margin-top:40px;
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.project-one, .project-two{
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+}
+
+.project div{
+	margin: 5px;
+}
+.project-header h2{
+	font-size: 20px;
+}
+
+.project-buttons button {
+	margin:5px;
+}
+.project-buttons button a{
+	text-decoration: none;
+	color:white;
+	font-size: 15px;
+}
+
+.carousel-item{
+	width:600px;
+	height: 400px;
+}
+
+
+.tags span{
+	margin-right: 10px;
+}
+/*---------------------------------------------------*/
 /*	15) CAVANI MEDIA QUERIES (FOR SMALL DEVICES)
 /*---------------------------------------------------*/
 
