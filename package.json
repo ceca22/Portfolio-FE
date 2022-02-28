@@ -1,0 +1,20 @@
+{
+    "name": "portfolio-fe",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "deploy": "aws s3 sync ./html s3://cecavasileva.com/ --profile ceca && aws cloudfront create-invalidation --distribution-id EJ7QMJSDURGDY --paths '/*' --profile ceca",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ceca22/Portfolio-FE.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ceca22/Portfolio-FE/issues"
+    },
+    "homepage": "https://github.com/ceca22/Portfolio-FE#readme"
+}
