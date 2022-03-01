@@ -2116,6 +2116,11 @@ h6 { font-size: 16px; }
 	margin-top: 15px;
 	margin-bottom: 15px;
 }
+
+.project-span {
+	/* margin-top:5px; */
+	margin-bottom:15px;
+}
 /*---------------------------------------------------*/
 /*	15) CAVANI MEDIA QUERIES (FOR SMALL DEVICES)
 /*---------------------------------------------------*/
