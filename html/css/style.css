@@ -493,6 +493,10 @@ h6 { font-size: 16px; }
 	background-size: cover;
 	background-position: center;
 }
+
+#ripple{
+	background-image: url('../images/me.jpg');
+}
 .cavani_tm_mainpart .main_content{
 	position: absolute;
 	top: 0px;
